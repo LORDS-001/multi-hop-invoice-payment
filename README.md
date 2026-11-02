@@ -5,7 +5,7 @@ Proof of completion for the [Send a Multi-Hop Invoice Payment](https://www.fiber
 **Route:** Sender A → Bottle B (public trampoline node) → Receiver C
 
 
-## 1. Quest 1: Send a multi-hop invoice payment
+## Quest 1: Send a multi-hop invoice payment
 
 Sent 1 CKB from A to C through Bottle.
 
@@ -14,7 +14,7 @@ Sent 1 CKB from A to C through Bottle.
 
 ![Quest 1 outcome](02-q1-outcome.png)
 
-## 2. Quest 2: Restore receiving liquidity
+## Quest 2: Restore receiving liquidity
 
 Sent 1 CKB back from C to A through the same channels.
 
@@ -34,7 +34,7 @@ Sent 1 CKB back from C to A through the same channels.
 ![Bars after return](05-q2-after.png)
 
 
-## 3. Liquidity answer
+## Liquidity answer
 
 **Before the return payment**
 
@@ -61,7 +61,7 @@ Each payment cost a 0.005 CKB fee: A paid it on the first payment and C paid it 
 After the round trip, the maximum invoice C could receive ended at 151.005, slightly above the original 151, because the 0.005 fee C paid on the return stayed on Bottle's side of B–C.
 
 
-## 4. Liquidity Ledger
+## Liquidity Ledger
 
 ### A. Three-snapshot ledger
 
@@ -121,7 +121,7 @@ S3 After Q2:   A [399.995 | 151.005] Bottle [151.005 | 399.995] C   ← Bottle's
 ```
 
 
-## 5. Personal reflection
+## Personal reflection
 
 **What I learned about the liquidity needed on the A–B and B–C channels**
 
