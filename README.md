@@ -1,4 +1,4 @@
-## Send Your First Multi-Hop Payment with Fiber
+# Build on CKB Campaign #7: Send Your First Multi-Hop Payment with Fiber
 
 Proof of completion for the [Send a Multi-Hop Invoice Payment](https://www.fiber.world/docs/build/multi-hop-invoice) tutorial, completed with the hosted demo on Fiber Testnet.
 
