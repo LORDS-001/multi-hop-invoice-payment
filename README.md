@@ -1,10 +1,9 @@
-Send Your First Multi-Hop Payment with Fiber
+## Send Your First Multi-Hop Payment with Fiber
 
 Proof of completion for the [Send a Multi-Hop Invoice Payment](https://www.fiber.world/docs/build/multi-hop-invoice) tutorial, completed with the hosted demo on Fiber Testnet.
 
 **Route:** Sender A → Bottle B (public trampoline node) → Receiver C
 
----
 
 ## 1. Quest 1: Send a multi-hop invoice payment
 
@@ -34,7 +33,6 @@ Sent 1 CKB back from C to A through the same channels.
 
 ![Bars after return](05-q2-after.png)
 
----
 
 ## 3. Liquidity answer
 
@@ -62,7 +60,6 @@ Each payment cost a 0.005 CKB fee: A paid it on the first payment and C paid it 
 
 After the round trip, the maximum invoice C could receive ended at 151.005, slightly above the original 151, because the 0.005 fee C paid on the return stayed on Bottle's side of B–C.
 
----
 
 ## 4. Liquidity Ledger
 
@@ -123,7 +120,6 @@ S2 After Q1:   A [398.995 | 152.005] Bottle [150     | 401    ] C   ← C's rece
 S3 After Q2:   A [399.995 | 151.005] Bottle [151.005 | 399.995] C   ← Bottle's side toward C refilled
 ```
 
----
 
 ## 5. Personal reflection
 
@@ -151,7 +147,6 @@ I'd build a pay-per-download page for small digital assets, such as icons, mocku
 
 In the payment step, I'd show Bottle's fee rate or explain how the actual fee is worked out next to the 1 CKB maximum, because I had no way to tell from the tutorial why I was charged 0.005. On the liquidity bars, I'd label each side with its owner, for example "Bottle's balance (C can receive this)" instead of "Inbound to C", and add a short note beside the maximum invoice saying which side is limiting it; I only understood why it was 151 after reading the article text. In the event log, I'd add a final "channel ready" event or clear the "existing or new channel is still progressing" message once both channels reach CHANNEL_READY, because seeing that message after the channels were ready made me think something was still wrong.
 
----
 
 ## References
 
