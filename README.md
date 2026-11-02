@@ -1,4 +1,4 @@
-# Build on CKB Campaign #7: Send Your First Multi-Hop Payment with Fiber
+Send Your First Multi-Hop Payment with Fiber
 
 Proof of completion for the [Send a Multi-Hop Invoice Payment](https://www.fiber.world/docs/build/multi-hop-invoice) tutorial, completed with the hosted demo on Fiber Testnet.
 
@@ -6,7 +6,7 @@ Proof of completion for the [Send a Multi-Hop Invoice Payment](https://www.fiber
 
 ---
 
-## 1. Quest 1 — Send a multi-hop invoice payment
+## 1. Quest 1: Send a multi-hop invoice payment
 
 Sent 1 CKB from A to C through Bottle.
 
@@ -15,7 +15,7 @@ Sent 1 CKB from A to C through Bottle.
 
 ![Quest 1 outcome](02-q1-outcome.png)
 
-## 2. Quest 2 — Restore receiving liquidity
+## 2. Quest 2: Restore receiving liquidity
 
 Sent 1 CKB back from C to A through the same channels.
 
